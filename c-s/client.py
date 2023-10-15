@@ -13,5 +13,5 @@ s.connect((host, port))
 msg = "CLIENT >> "
 s.send(msg.encode())
 msg = s.recv(1024)
-print('SERVER  >>  ', msg)
+print('SERVER  >>  ', msg.decode())
 s.close                 

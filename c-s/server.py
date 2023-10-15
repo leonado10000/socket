@@ -19,4 +19,4 @@ for i in range(5):
     print(addr, ' >> ', msg , i)
     c.send(': Message sent by kaiser '.encode())
 
-c.close                # Close the connection
+c.close()                # Close the connection
